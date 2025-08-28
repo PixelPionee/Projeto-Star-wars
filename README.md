@@ -5,4 +5,4 @@
  sera um site bem simples, só vai ter a documentação em __html e css__
  talvez, depois que eu aprender um pouco de javascript, eu volto aqui e melhoro ele com suas recomendaçôes profissionais;
   ja que como eu disse na bio: sou um **iniciante**.
- Espero a colaboração de todos vocês, profissionais!
+ Espero a colaboração de todos vocês, profissionais!🖐🤘
