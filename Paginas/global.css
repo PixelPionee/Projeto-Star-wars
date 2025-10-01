@@ -1,7 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    color: white;
+    background-color: black;
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 1.7;
+  font-style: normal;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1.7;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.starwars-logo-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.posteres {
+    display: flex;
+    justify-content: center;
+
+    }
