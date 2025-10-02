@@ -10,7 +10,7 @@ body {
     background-color: black;
     font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 1.7;
+  font-weight: 1.7px;
   font-style: normal;
   font-size: 1.1em;
   margin: 0;
@@ -21,7 +21,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 1.7;
+  font-weight: 1.7px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -38,14 +38,3 @@ section {
     margin-bottom: 40px;
 }
 
-.starwars-logo-container {
-    display: flex;
-    justify-content: center;
-
-}
-
-.posteres {
-    display: flex;
-    justify-content: center;
-
-    }

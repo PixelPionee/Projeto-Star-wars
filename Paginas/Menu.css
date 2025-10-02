@@ -1,0 +1,33 @@
+* { background-color: black;
+
+}
+h1, h2,h3,h4,h5,h6{
+    letter-spacing: 2px;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+}
+
+.starwars-logo-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.posteres {
+    display: flex;
+    justify-content: center;
+
+    }
+
+.lindo {
+    color: yellow;
+}
+
+.maravilhoso {
+    color: yellow;
+}
+
+
+
+
