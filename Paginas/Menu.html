@@ -5,33 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Wars</title>
-     <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="menu.css">     
 </head>
-   
 <body>
+    <header>
+        <div class="starwars-logo-container"> 
+            <img src="Imagens/Logo_Star_Wars385PX.png" alt="Logo de Star Wars">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Menu.html">Início</a></li>
+                <li><a href="Sobre.html">Sobre a Saga</a></li>
+                <li><a href="Filmes.html">Filmes</a></li> 
+                <li><a href="Series.html">Séries</a></li> 
+                <li><a href="jogos.html">Jogos</a></li>
+            </ul>
+               
+        </nav>
+    </header>
+
     <main>
-     <header>
-    <div class="starwars-logo-container"> 
-        <img src="Imagens/Logo_Star_Wars385PX.png" alt="Logo de Star Wars">
-    </div>
-     </header>
-     <article>
-        <h1>Bem vindo a uma galaxia muito, muito distante...</h1>
-        <hr>
-        <div class="maravilhoso">
-    <p>Star Wars é uma franquia de cinema SCI-FI em uma galaxia muito distante, com planetas novos, raças originais desse universo, batalhas epicas e os iconicos sabres de luz; essa franquias conquistou milhões de fãs no mundo inteiro e contem: filmes, series e muitos jogos</p>
-    </div>  
-    <h2>O que vamos falar nesse site?</h2>
-    <h3>vamos falar sobre a franquia, filmes e series!</h3>
-    <div class="posteres">
-    <img src="Imagens/Posteres dos filmes400PX.jpg" alt="">
-    </div>
-    <hr>
-    <div class="lindo">
-    <p>Criado por George Lucas,o primeiro filme de Star Wars foi lançado em 1977 intitulado na epoca: "Star Wars"; ele é atualmente o episodio 4: Uma nova esperança; da saga, o primeiro episodio intitulado: A ameaça fantasma foi lançado em 1999 após mais de 20 anos da saga estar parada no cinema,o orçamento de Star Wars (1977) foi de cerca de 11 milhões de dólares, o que, para a época, era um valor considerável. No entanto, o filme foi um sucesso absoluto de bilheteria, arrecadando  mais de 775 milhões de dólares no mundo todo. Esse sucesso inesperado transformou o cinema e provou que filmes de ficção científica poderiam ser fenômenos de cultura pop. </p>
-    </div>
-    </article>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bem vindo a uma galáxia muito, muito distante...</h1>
+                <p>Explore o universo, os filmes e as séries da maior saga de ficção científica da história.</p>
+            </div>
+        </section>
+
+        <section class="navigation-cards">
+            <h2>Explore o Universo</h2>
+            <div class="cards-container">
+                
+                <a href="Sobre.html" class="card">
+                    <img src="Imagens/Posteres dos filmes.jpg" alt="Pôsteres de filmes de Star Wars">
+                    <div class="card-title">
+                        <h3>Sobre a Saga</h3>
+                    </div>
+                </a>
+
+                <a href="Filmes.html" class="card"> <img src="Imagens/Poster de 1977.jpg" alt="Pôsteres de filmes de Star Wars">
+                    <div class="card-title">
+                        <h3>Os Filmes</h3>
+                    </div>
+                </a>
+
+                <a href="jogos.html" class="card"> <img src="Imagens/Star_Wars_Jedi_Survivor_capa.png" alt="Imagem do jogo Battlefront 2">
+                    <div class="card-title">
+                        <h3>Os Jogos</h3>
+                    </div>
+                </a>
+
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>Site de fã criado por um fã. Star Wars é uma marca registrada da Disney & Lucasfilm Ltd.</p>
+    </footer>
 </body>
 </html>
