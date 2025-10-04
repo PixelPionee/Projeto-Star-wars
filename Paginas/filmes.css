@@ -1,8 +1,6 @@
-/* --- Estilos para a Página de Filmes --- */
-
 .movies-container {
     max-width: 900px;
-    margin: 0 auto; /* Centraliza o container na página */
+    margin: 0 auto; 
     padding: 20px;
 }
 
@@ -17,11 +15,11 @@
 
 .movie-card {
     display: flex;
-    background-color: #111; /* Um preto um pouco mais claro que o fundo */
+    background-color: #111; 
     border: 1px solid #333;
     border-radius: 8px;
     margin-bottom: 30px;
-    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas na imagem */
+    overflow: hidden; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -32,7 +30,7 @@
 }
 
 .movie-poster {
-    flex: 0 0 200px; /* Define uma largura fixa para o pôster */
+    flex: 0 0 200px; 
 }
 
 .movie-poster img {
@@ -62,14 +60,14 @@
 }
 
 .synopsis {
-    flex-grow: 1; /* Faz a sinopse ocupar o espaço disponível */
+    flex-grow: 1;
     line-height: 1.6;
     color: #ddd;
 }
 
 .movie-stats {
     display: flex;
-    gap: 30px; /* Espaço entre orçamento e bilheteria */
+    gap: 30px; 
     margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid #333;
@@ -85,7 +83,6 @@
     color: yellow;
 }
 
-/* --- Rodapé (Reutilizado de menu.css, mas pode ser movido para global.css) --- */
 footer {
     text-align: center;
     padding: 20px;

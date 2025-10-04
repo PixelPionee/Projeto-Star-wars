@@ -1,6 +1,6 @@
 
 .hero {
-    /* Sugestão: adicione uma imagem de fundo aqui no futuro */
+    
     text-align: center;
     padding: 40px 20px;
 }
@@ -36,7 +36,7 @@
 }
 
 .card {
-    width: 300px;
+    width: 270px;
     border: 2px solid #555;
     border-radius: 8px;
     overflow: hidden; 

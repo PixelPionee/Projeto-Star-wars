@@ -1,0 +1,123 @@
+/* --- Estilos para a Página de Séries --- */
+
+/* 1. Banner de Destaque */
+.hero-series {
+    position: relative;
+    width: 100%;
+    height: 40vh; /* 40% da altura da tela */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-series img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço */
+}
+
+.hero-series .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 100%);
+}
+
+.hero-series h1 {
+    position: relative;
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* 2. Layout Principal */
+.series-layout {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Coluna 1: 250px | Coluna 2: resto do espaço */
+    gap: 40px; /* Espaço entre as colunas */
+    align-items: start; /* Alinha os itens no topo */
+}
+
+/* 3. Menu Lateral Fixo */
+.series-nav {
+    position: sticky;
+    top: 20px; /* Distância que o menu vai ficar do topo da tela */
+    padding: 15px;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.series-nav h3 {
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+    color: yellow;
+}
+
+.series-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.series-nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.series-nav ul li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* 4. Conteúdo da Direita */
+.series-card {
+    background: #0a0a0a;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 40px; /* Espaço entre as seções de séries */
+    border: 1px solid #222;
+}
+
+.series-logo {
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.series-card h2 {
+    font-size: 2.2em;
+    color: white;
+}
+
+.series-tags {
+    color: #aaa;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Reutilizando tags de Canon/Legends */
+.tag.canon { background-color: #d4af37; color: black; padding: 3px 8px; border-radius: 5px; font-style: normal;}
+
+.series-card p {
+    color: #ddd;
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.9em;
+}
