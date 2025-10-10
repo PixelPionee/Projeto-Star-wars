@@ -99,3 +99,54 @@ footer {
     color: #888;
     font-size: 0.9em;
 }
+
+.carousel-container {
+    position: relative; 
+    width: 90%;      
+    max-width: 1200px;
+    margin: 0 auto;   
+    overflow: hidden; 
+}
+
+.carousel-track {
+    display: flex; 
+    gap: 20px;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.game-card {
+    flex: 0 0 280px; 
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    font-size: 2.5em; 
+    padding: 20px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.prev-btn {
+    left: -15px;
+}
+
+.next-btn {
+    right: -15px;
+}
+
+.carousel-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
